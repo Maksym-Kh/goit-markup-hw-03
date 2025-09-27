@@ -164,10 +164,14 @@ p {
     gap: 40px;
 }
 
+.nav-list-link{
+    padding-top: 24px;
+        padding-bottom: 24px;
+}
+
 .nav-item{
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
  
 }
 .nav-list a{
@@ -371,6 +375,11 @@ gap: 24px;
     padding: 100px 0;
 }
 
+.footer a{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-container{
     display: flex;
     flex-direction: column;
@@ -380,7 +389,6 @@ gap: 24px;
 .logo-footer{
     font-family: "Raleway", sans-serif;
     color: #f4f4fd;
-        display: inline-block;
 }
 
 .footer-link{
@@ -392,7 +400,7 @@ gap: 24px;
     color:#4d5ae5;
     font-family: "Raleway", sans-serif;
     margin-bottom: 16px;
-    display: inline-block;
+
 }
 .footer-text {
    color: var(--cloud);
