@@ -27,7 +27,7 @@ body{
 }
 
 .container{
-    display: flex;
+    /* display: flex; */
     max-width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
@@ -381,7 +381,7 @@ gap: 24px;
 }
 
 .footer-container{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
 }
 
@@ -389,6 +389,7 @@ gap: 24px;
 .logo-footer{
     font-family: "Raleway", sans-serif;
     color: #f4f4fd;
+display: inline-block;
 }
 
 .footer-link{
@@ -400,7 +401,7 @@ gap: 24px;
     color:#4d5ae5;
     font-family: "Raleway", sans-serif;
     margin-bottom: 16px;
-    display: inline-block;
+    display: inline-block ;
 
 }
 .footer-text {
