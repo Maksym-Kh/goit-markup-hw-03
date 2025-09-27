@@ -116,6 +116,7 @@ p {
 /* header */
 .header {
     background: var(--white);
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .nav-container{
